@@ -11,6 +11,6 @@ int main(int argc,char **argv){
 		x=y;
 		y=z;
 	}
-	return;
+	return 0;
 }
 
