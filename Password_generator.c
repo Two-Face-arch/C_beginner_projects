@@ -64,6 +64,7 @@ void regenerator(){
 int main(int argc,char **argv){
 	printf("Enter the length of the password(Minimum length should be 8):");
 	scanf("%zu",&n);
+ n=abs(n);
 	getchar();
 	if(n<8){
 		printf("Password length too short\n");
